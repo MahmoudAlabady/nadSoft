@@ -1,0 +1,437 @@
+{
+	"info": {
+		"_postman_id": "bd3d5e9d-2530-4980-a2aa-f91b4bb35c6e",
+		"name": "nadsoft",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8506948"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get users",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2374"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"946-JUitcZdJBA2aEvcGsgwGo67Zers\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Jan 2024 17:10:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"65b625f4635e8ad3f7655ee5\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b6262b325cef94adfa113f\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b62699a4b93dc00a855a5a\",\n        \"name\": \"John Doeddddd\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234581111111111111111111167890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b626c5425a7f05a3b7f92e\",\n        \"name\": \"John Doeddddd\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234581111111111111111111167890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b6853af0e199efb29fcc22\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b685b02b6d7d653939ff25\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b685e0d12745bebd7577b8\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b685fce3f1622c4cc9b760\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b6861ed72803a3c6a28502\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b686cedba361947421414d\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b687091e0d46477e5485fa\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b6875ee18246afc635b25c\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b687d2bb9f8b2af25f8ed3\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b6880a2615c3834bfee037\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b68831d66c8d307d8961ca\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b68871d8fc02ac5fe0f068\",\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234567890\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"65b68a82d8fc02ac5fe0f06a\",\n        \"name\": \"John Doeddddd\",\n        \"email\": \"john@example.com\",\n        \"age\": 25,\n        \"country\": \"USA\",\n        \"mobile\": \"1234581111111111111111111167890\",\n        \"__v\": 0\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:3000/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"John Doeddddd\",\r\n    \"email\": \"john@example.com\",\r\n    \"age\": 25,\r\n    \"country\": \"USA\",\r\n    \"mobile\": \"1234581111111111111111111167890\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/users",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"John Doeddddd\",\r\n    \"email\": \"john@example.com\",\r\n    \"age\": 25,\r\n    \"country\": \"USA\",\r\n    \"mobile\": \"1234581111111111111111111167890\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "160"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a0-E/dnwiOdfwbo/t1weGeFUWIrCro\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Jan 2024 17:10:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"John Doeddddd\",\n    \"email\": \"john@example.com\",\n    \"age\": 25,\n    \"country\": \"USA\",\n    \"mobile\": \"1234581111111111111111111167890\",\n    \"_id\": \"65b68a82d8fc02ac5fe0f06a\",\n    \"__v\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"65b625f4635e8ad3f7655ee5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users",
+								"65b625f4635e8ad3f7655ee5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "134"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"86-xVbfRNM32s+QTabpwYKBh4qbGG4\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Jan 2024 17:16:17 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_id\": \"65b625f4635e8ad3f7655ee5\",\n    \"name\": \"John Doe\",\n    \"email\": \"john@example.com\",\n    \"age\": 25,\n    \"country\": \"USA\",\n    \"mobile\": \"1234567890\",\n    \"__v\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"mido\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"65b625f4635e8ad3f7655ee5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"mido\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users",
+								"65b625f4635e8ad3f7655ee5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "130"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"82-a5hDYUwfppeNeG2rTnjNXHKWJtA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Jan 2024 17:18:21 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_id\": \"65b625f4635e8ad3f7655ee5\",\n    \"name\": \"mido\",\n    \"email\": \"john@example.com\",\n    \"age\": 25,\n    \"country\": \"USA\",\n    \"mobile\": \"1234567890\",\n    \"__v\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"65b625f4635e8ad3f7655ee5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/users/65b625f4635e8ad3f7655ee5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users",
+								"65b625f4635e8ad3f7655ee5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "39"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"27-27o4zzUjhHNmthTJyia4gBCjpos\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Jan 2024 17:19:03 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User deleted successfully\"\n}"
+				}
+			]
+		}
+	]
+}
