@@ -1,0 +1,89 @@
+Function isPalindrome(inputString):
+    // Step 1: before comparing the input string
+    processedString = trimAndRemove(inputString)
+
+    // Step 2: Compare characters from start and end
+    start = 0
+    end = length(processedString) - 1
+
+    while start < end:
+        if processedString[start] != processedString[end]:
+            return false
+        start++
+        end--
+
+    // Step 3: If all characters match, it's a palindrome
+    return true
+
+Function trimAndRemove(inputString):
+    // Convert to lowercase and remove non-alphanumeric characters
+    processedString = removeNonAlphanumeric(toLowerCase(inputString))
+    return processedString
+
+Function removeNonAlphanumeric(inputString):
+    // Remove non-alphanumeric characters
+    return inputString.replace(/[^a-z0-9]/g, '')
+
+
+
+
+///////////////////////////////////////
+
+Objective: We want to determine if a given string is a palindrome.
+
+Approach: We'll preprocess the string, removing spaces, making it lowercase, and removing non-alphanumeric characters. Then, we'll compare characters from the start and end simultaneously.
+
+support: google , chatgpt 
+
+
+
+///////////////////////////////////////
+
+Considerations:
+Case Insensitivity: The algorithm converts the input to lowercase to handle case-insensitive comparisons.
+
+Ignore Special Characters: The removeNonAlphanumeric function removes non-alphanumeric characters.
+
+Handling Long Strings: The algorithm compares characters from both ends, so it is efficient for long strings.
+
+
+///////////////////////////////////////////////////////////////////
+Algorithm Complexity:
+Time Complexity: O(n) - The algorithm traverses half of the string in a single pass.
+
+Space Complexity: O(n) - Additional space is used for the processed string.
+/////////////////////////////////////////////////////////////////
+
+Alternative Solutions From chatGPT:<<<<<<<>>>>>>>
+
+Alternative 1 - Reversing the String:
+
+Function isPalindrome(inputString):
+    reversedString = reverseString(inputString)
+    return inputString == reversedString
+
+Function reverseString(inputString):
+    return inputString.split('').reverse().join('')
+
+
+
+////////////////////////////////////////////////
+
+Alternative 2 - Two-Pointer Approach:
+
+Function isPalindrome(inputString):
+    start = 0
+    end = length(inputString) - 1
+
+    while start < end:
+        if inputString[start] != inputString[end]:
+            return false
+        start++
+        end--
+
+    return true
+
+
+Alternative 1: Requires additional space for the reversed string. Time complexity is O(n).
+
+Alternative 2: No additional space required. Time complexity is still O(n).
